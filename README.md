@@ -6,3 +6,9 @@ We are going to implement the Ansible here too, but by Dec/2023 we dont know wha
 
 Other tech to consider: 
 - https://www.puppet.com
+
+
+## Folder doc
+
+In this folder we have the information of the project.
+- Architectural design
