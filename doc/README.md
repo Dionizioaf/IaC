@@ -4,4 +4,4 @@
 
 We save all the aws design in the folder aws
 
-[design aws](/aws)
+[design aws](/doc/aws)
