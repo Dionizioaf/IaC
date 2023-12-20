@@ -12,3 +12,9 @@ Other tech to consider:
 
 In this folder we have the information of the project.
 - Architectural design
+
+
+## iac/terraform
+
+- account-master: Code to deploy the master account environment
+- modules: the code converted to modules, in the final stage every other folder will only use modules created inside here
