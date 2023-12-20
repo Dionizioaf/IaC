@@ -5,6 +5,8 @@ Here we are going to implement the terraform to manage the master account.
 ## Services Enabled
 
 - Organization
+- Organization Units
+- Member Accounts
 
 ## References
 
