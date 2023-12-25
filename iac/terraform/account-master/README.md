@@ -27,6 +27,7 @@ Here we are going to implement the terraform to manage the master account.
 ├── **ou.tf** -> Create the Organization Units
 ├── **outputs.tf** -> Export the units
 ├── **provider.tf** -> Terraform provider
+├── **scp.tf** -> scp configurations
 ├── **terraform.tfvars** -> Variables values
 └── **variables.tf** -> Variables definitions
 
