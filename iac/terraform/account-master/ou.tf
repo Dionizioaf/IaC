@@ -4,3 +4,9 @@
 #   name      = "Governance"
 #   parent_id = aws_organizations_organization.org.roots[0].id
 # }
+
+
+# Create OUS
+
+
+# Configure member accounts in a OU
