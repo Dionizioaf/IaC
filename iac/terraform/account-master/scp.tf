@@ -49,3 +49,16 @@
 
 
 # Connect SCP to OU
+
+# POSSIBLE SCP
+# Block member accounts from leaving organization - Apply at root ou
+
+# Tag POlicies
+# Opt-Out Policies
+# Backup Policies
+
+
+# We recommend SCPs be applied to the
+# Security OU preventing modification or deletion of files within the centralized logging S3 bucket(s).
+# Additionally, the use of S3 bucket versioning provides visibility into the complete history of all log
+# files.
