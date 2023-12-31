@@ -1,4 +1,6 @@
-
+# ========================
+# GENERIC VARIABLES
+# ========================
 variable "default_tags" {
   description = "value for default tags that will be applied in every resource"
   type        = map(any)
@@ -11,6 +13,9 @@ variable "ops_profile" {
   default     = "sso-ops"
 }
 
+# ========================
+# ORGANIZATION VARIABLES
+# ========================
 variable "organization_services" {
   description = "value for the service that will be used to create the organization \n Options: https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html"
   type        = list(string)
