@@ -1,0 +1,28 @@
+Best Practices
+Pending
+https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/operating-model.html
+https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/expenditure-and-usage-awareness.html
+https://aws.amazon.com/ram/
+
+https://github.com/primeharbor/org-kickstart
+
+https://terraform-docs.io/
+
+tflint?
+
+https://developer.hashicorp.com/terraform/language/expressions/custom-conditions
+
+terraform test?
+
+
+
+=== Validar
+
+Cloudtrail para log account - Amazon Security Lake?
+
+
+Security tooling accounts
+Page28
+
+IMPLMENTE 
+DOC, COST, LINT, Security
