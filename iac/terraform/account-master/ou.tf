@@ -1,23 +1,12 @@
+locals {
+  organization_units = var.organization_units
+  root_ou = aws_organizations_organization.org.roots[0].id
 
-# Governance holds the security & payer accounts
-# resource "aws_organizations_organizational_unit" "governance_ou" {
-#   name      = "Governance"
-#   parent_id = aws_organizations_organization.org.roots[0].id
-# }
-
-
-# Create OUS
-resource "aws_organizations_organizational_unit" "governance_ou" {
-  name      = "Governance"
-  parent_id = aws_organizations_organization.org.roots[0].id
 }
-
-# Configure member accounts in a OU
-
-# Sandbox
-# Business Continuity
-# Deployments
-# Security
-# Ingraestructure -> DEVOPS AND INFRA ACCOUNT RESOURCES
-# Suspended
-# Workloads -> For guidance on where to contain non-infrastructure shared services, refer to Workloads OU
+# Create OUS
+resource "aws_organizations_organizational_unit" "ou" {
+  for_each                   = local.organization_member_accounts
+  name                       = each.value["name"]
+  parent_id = each.value["parent_id"] == "root" ? local.root_ou : ""
+  // TODO: how do i get dynamic parent_id?
+}

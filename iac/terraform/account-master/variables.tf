@@ -28,6 +28,17 @@ variable "organization_policy_types" {
   default     = []
 }
 
+variable "organization_units" {
+  description = "value for the units that will be used to create the organization. \n Options: https://docs.aws.amazon.com/organizations/latest/APIReference/API_CreateOrganizationalUnit.html"
+  type = list(
+    object({
+      name      = string
+      parent_id = string
+    })
+  )
+  default = []
+}
+
 variable "organization_member_accounts" {
   description = "value for the member accounts that will be created in the organization. \n If delete_on_termination is set to true, the member accounts will be deleted, if set to false, the member accounts will be remove from organization, but not deleted."
   type = list(object({
@@ -35,6 +46,7 @@ variable "organization_member_accounts" {
     email                 = string
     delete_on_termination = bool
     enable_billing_panel  = bool
+    ou_name               = string
   }))
   default = []
 }
