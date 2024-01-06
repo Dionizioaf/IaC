@@ -1,3 +1,8 @@
+/**
+  * organizations.tf
+  *
+  *  In the organizations.tf file, it will enable the AWS Organizations service and create the root organizational unit
+  */
 locals {
     organization_services = var.organization_services
     policy_types = var.organization_policy_types

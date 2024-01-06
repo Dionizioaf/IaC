@@ -1,11 +1,11 @@
 
 
-output "organization_account_ids" {
+output "organization_accounts" {
   description = "ids of the organization accounts"
-  value       = data.aws_organizations_organization.organization.accounts[*].id
+  value       = data.aws_organizations_organization.organization.accounts[*]
 }
 
-output "organization_units" {
-  description = "ids of the organization units"
-  value       = aws_organizations_organizational_unit.ou[*].id
+output "organization_member_accounts" {
+  description = "ids of the members accounts"
+  value       = aws_organizations_account.member-accounts
 }

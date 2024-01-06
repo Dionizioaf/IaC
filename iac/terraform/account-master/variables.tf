@@ -1,3 +1,10 @@
+/**
+  * variables.tf
+  *
+  *  In the variables.tf file, will be create the default variables that will be used in the project
+  */
+
+
 # ========================
 # GENERIC VARIABLES
 # ========================
@@ -49,4 +56,17 @@ variable "organization_member_accounts" {
     ou_name               = string
   }))
   default = []
+}
+
+# ========================
+# CONTROL TOWER
+# ========================
+
+variable "control_tower_config" {
+  description = "value for the control tower configuration. \n Options: https://docs.aws.amazon.com/controltower/latest/userguide/terminology.html"
+  type = list(object({
+    control_names : list(string),
+    organizational_unit_ids : list(string)
+  }))
+
 }
