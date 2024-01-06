@@ -13,6 +13,8 @@ Here we are going to implement the terraform to manage the master account. We fo
 - Organization
 - Organization Units
 - Member Accounts
+- Control Tower
+- 
 
 
 ## Structure
