@@ -70,7 +70,7 @@
 
 locals {
   TagsExist         = var.scp_tag_enforce.tags
-  TagsExistAccounts = var.scp_tag_enforce.accounts
+  TagsExistOUs = var.scp_tag_enforce.ous
 
 }
 
@@ -101,10 +101,10 @@ EOF
 }
 
 resource "aws_organizations_policy_attachment" "attach_policy" {
-  count = length(local.TagsExistAccounts)
+  count = length(local.TagsExistOUs)
 
   policy_id = aws_organizations_policy.tagging_policy.id
-  target_id = [for ou in aws_organizations_organizational_unit.ou : ou.id if ou.name == local.TagsExistAccounts[count.index]][0]
+  target_id = [for ou in aws_organizations_organizational_unit.ou : ou.id if ou.name == local.TagsExistOUs[count.index]][0]
 }
 
 
