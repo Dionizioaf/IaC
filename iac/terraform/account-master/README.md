@@ -41,3 +41,4 @@ Here we are going to implement the terraform to manage the master account. We fo
 - https://docs.aws.amazon.com/organizations/latest/APIReference/API_EnablePolicyType.html
 - https://docs.aws.amazon.com/organizations/latest/userguide/orgs_integrate_services_list.html
 - https://github.com/aws-samples/aws-control-tower-controls-terraform
+- https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html

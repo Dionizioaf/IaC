@@ -61,11 +61,17 @@ organization_member_accounts = [{
   enable_billing_panel  = false
   ou_name               = "Workloads"
   }, {
-  name                  = "BS Production"
-  email                 = "bsprod@opslife.com.br",
+  name                  = "DR Production"
+  email                 = "DRprod@opslife.com.br",
   delete_on_termination = true
   enable_billing_panel  = false
   ou_name               = "Business Continuity"
+  }, {
+  name                  = "CI_CD"
+  email                 = "cicd@opslife.com.br",
+  delete_on_termination = true
+  enable_billing_panel  = false
+  ou_name               = "Workloads"
 }]
 
 
@@ -89,6 +95,9 @@ organization_units = [{
   parent_id = "root"
   }, {
   name      = "Business Continuity"
+  parent_id = "root"
+}, {
+  name      = "Transitional"
   parent_id = "root"
 }]
 
@@ -141,16 +150,6 @@ control_tower_config = [
 ]
 
 
-
-# CI/CD accounts
-# CI/CD based of resources group - Ex APP1 em prod e dev with ame CI/CD account
-# CI/CD for monitoring plataforms using same CI/CD
-# For example, your CI jobs and CD pipelines typically need write access to publish and promote
-# candidate artifacts to an artifact management service. However, your production workload
-# environments should only require read access to artifact management services in order to obtain
-# the already built and promoted artifacts
-
-
 # organization_member_accounts_tags = {
 #   production : {
 #     terraform : true,
@@ -186,20 +185,3 @@ control_tower_config = [
 # Shared Services accounts to deploy a Secure Shell Protocol (SSH) or virtual private network
 # (VPN)-tunneled Remote Desktop Protocol (RDP) bastion which will serve as the entry point to
 # your AWS Cloud environment.
-
-
-# The recommended Security OU and accounts, Infrastructure OU and accounts, Workloads OU, and
-# Deployments OU are top-level OUs that contain workloads
-
-
-# Security_Prod > security-tooling-prod
-# Core -> Audit,  Log archive
-# Infrastructure > Network (vpc and route53, route 53 resolver endpoints), shared_infra
-
-# Transitional, Exceptions, Business Users, Suspended
-
-# TEams?
-
-
-
-# billing per hour

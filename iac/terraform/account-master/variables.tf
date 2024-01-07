@@ -59,6 +59,27 @@ variable "organization_member_accounts" {
 }
 
 # ========================
+# SCP
+# ========================
+#TODO: Should enable implementation in member accounts?
+variable "scp_tag_enforce" {
+  description = "Value for the tag enforcement policy. \n Best practices: https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/tagging-best-practices.html"
+  type = object({
+    ous : list(string)
+    tags : map(list(string))
+  })
+  default = {
+    ous = ["Deployments", "Workloads"]
+    tags = {
+      "aws:RequestTag/Environment" : ["true"],
+      "aws:RequestTag/Team" : ["true"],
+      "aws:RequestTag/Product-name" : ["true"],
+    }
+  }
+}
+
+
+# ========================
 # CONTROL TOWER
 # ========================
 
