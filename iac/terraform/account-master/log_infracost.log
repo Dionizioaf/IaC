@@ -1,0 +1,44 @@
+[1mProject:[0m Dionizioaf/OpsLife-IaC/iac/terraform/account-master
+
+ [4mName[0m  [4mMonthly Qty[0m  [4mUnit[0m  [4mMonthly Cost[0m 
+                                       
+[1m OVERALL TOTAL[0m                   $0.00 
+──────────────────────────────────
+64 cloud resources were detected:
+∙ 0 were estimated
+∙ 64 are not supported yet, see [4mhttps://infracost.io/requested-resources[0m:
+  ∙ 43 x aws_controltower_control
+  ∙ 9 x aws_organizations_account
+  ∙ 8 x aws_organizations_organizational_unit
+  ∙ 2 x aws_organizations_policy_attachment
+  ∙ 1 x aws_organizations_organization
+  ∙ 1 x aws_organizations_policy
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                             ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ Dionizioaf/OpsLife-IaC/iac/terraform/account-master ┃ $0.00        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛
+========================
+[1mProject:[0m Dionizioaf/OpsLife-IaC/iac/terraform/account-master
+
+ [4mName[0m  [4mMonthly Qty[0m  [4mUnit[0m  [4mMonthly Cost[0m 
+                                       
+[1m OVERALL TOTAL[0m                   $0.00 
+──────────────────────────────────
+64 cloud resources were detected:
+∙ 0 were estimated
+∙ 64 are not supported yet, see [4mhttps://infracost.io/requested-resources[0m:
+  ∙ 43 x aws_controltower_control
+  ∙ 9 x aws_organizations_account
+  ∙ 8 x aws_organizations_organizational_unit
+  ∙ 2 x aws_organizations_policy_attachment
+  ∙ 1 x aws_organizations_organization
+  ∙ 1 x aws_organizations_policy
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                             ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ Dionizioaf/OpsLife-IaC/iac/terraform/account-master ┃ $0.00        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛
+========================

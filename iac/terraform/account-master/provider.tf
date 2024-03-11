@@ -28,7 +28,7 @@ provider "aws" {
 # Create The Ops Account that will hold the Terraform state
 #
 provider "aws" {
-  alias  = "ops-account"
+  alias  = "opslife"
   region = "us-west-2"
   profile = local.ops_profile
 #   assume_role {

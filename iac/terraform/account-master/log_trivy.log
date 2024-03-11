@@ -1,0 +1,88 @@
+
+Scan Overview for AWS Account 450723311528
+┌────────────────┬──────────────────────────────────────────────────┬──────────────┐
+│                │                Misconfigurations                 │              │
+│                ├──────────┬──────────────┬────────┬─────┬─────────┤              │
+│ Service        │ Critical │     High     │ Medium │ Low │ Unknown │ Last Scanned │
+├────────────────┼──────────┼──────────────┼────────┼─────┼─────────┼──────────────┤
+│ accessanalyzer │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ api-gateway    │        0 │            0 │      4 │  20 │       0 │ just now     │
+│ athena         │        0 │            2 │      0 │   0 │       0 │ just now     │
+│ cloudfront     │        0 │            2 │      2 │   0 │       0 │ just now     │
+│ cloudtrail     │        0 │            2 │      0 │   2 │       0 │ just now     │
+│ cloudwatch     │        0 │            0 │      0 │  14 │       0 │ just now     │
+│ codebuild      │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ documentdb     │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ dynamodb       │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ ec2            │       27 │            1 │      1 │   6 │       0 │ just now     │
+│ ecr            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ ecs            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ efs            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ eks            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ elasticache    │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ elasticsearch  │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ elb            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ emr            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ iam            │        0 │            0 │      2 │   2 │       0 │ just now     │
+│ kinesis        │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ kms            │        0 │            0 │      6 │   0 │       0 │ just now     │
+│ lambda         │        0 │            0 │      0 │  11 │       0 │ just now     │
+│ mq             │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ msk            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ neptune        │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ rds            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ redshift       │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ s3             │        0 │           12 │      9 │   9 │       0 │ just now     │
+│ sns            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ sqs            │        0 │            2 │      0 │   0 │       0 │ just now     │
+│ ssm            │        0 │            0 │      0 │   1 │       0 │ just now     │
+│ workspaces     │        0 │            0 │      0 │   0 │       0 │ just now     │
+└────────────────┴──────────┴──────────────┴────────┴─────┴─────────┴──────────────┘
+
+This scan report was loaded from cached results. If you'd like to run a fresh scan, use --update-cache.
+========================
+
+
+Scan Overview for AWS Account 450723311528
+┌────────────────┬──────────────────────────────────────────────────┬──────────────┐
+│                │                Misconfigurations                 │              │
+│                ├──────────┬──────────────┬────────┬─────┬─────────┤              │
+│ Service        │ Critical │     High     │ Medium │ Low │ Unknown │ Last Scanned │
+├────────────────┼──────────┼──────────────┼────────┼─────┼─────────┼──────────────┤
+│ accessanalyzer │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ api-gateway    │        0 │            0 │      4 │  20 │       0 │ just now     │
+│ athena         │        0 │            2 │      0 │   0 │       0 │ just now     │
+│ cloudfront     │        0 │            2 │      2 │   0 │       0 │ just now     │
+│ cloudtrail     │        0 │            2 │      0 │   2 │       0 │ just now     │
+│ cloudwatch     │        0 │            0 │      0 │  14 │       0 │ just now     │
+│ codebuild      │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ documentdb     │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ dynamodb       │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ ec2            │       27 │            1 │      1 │   6 │       0 │ just now     │
+│ ecr            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ ecs            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ efs            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ eks            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ elasticache    │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ elasticsearch  │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ elb            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ emr            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ iam            │        0 │           72 │      2 │   2 │       0 │ just now     │
+│ kinesis        │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ kms            │        0 │            0 │      6 │   0 │       0 │ just now     │
+│ lambda         │        0 │            0 │      0 │  11 │       0 │ just now     │
+│ mq             │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ msk            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ neptune        │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ rds            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ redshift       │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ s3             │        0 │           12 │      9 │   9 │       0 │ just now     │
+│ sns            │        0 │            0 │      0 │   0 │       0 │ just now     │
+│ sqs            │        0 │            4 │      0 │   0 │       0 │ just now     │
+│ ssm            │        0 │            0 │      0 │   1 │       0 │ just now     │
+│ workspaces     │        0 │            0 │      0 │   0 │       0 │ just now     │
+└────────────────┴──────────┴──────────────┴────────┴─────┴─────────┴──────────────┘
+
+This scan report was loaded from cached results. If you'd like to run a fresh scan, use --update-cache.
+========================
+
